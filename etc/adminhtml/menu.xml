@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+         <add id="EcomHouseExtensions_Base::menu"
+             title="ecomhouse"
+             module="EcomHouse_Base"
+             translate="title"
+             sortOrder="50"
+             resource="EcomHouseExtensions_Base::menu"/>
+    </menu>
+</config>

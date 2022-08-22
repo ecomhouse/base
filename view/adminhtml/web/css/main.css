@@ -1,0 +1,18 @@
+.config-nav-block.ecomhouse-tab strong:before {
+    background: url(../images/logo.svg) no-repeat;
+    width: 25px;
+    height: 18px;
+    content: '';
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: bottom;
+}
+
+#menu-ecomhouseextensions-base-menu > a:before {
+    content: '';
+    background: url(../images/menu.svg) no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 19px;
+    margin: auto 29px 6px;
+}

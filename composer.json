@@ -1,0 +1,26 @@
+{
+    "name": "ecomhouse/base",
+    "description": "Magento 2 Extensions Base by ecomhouse",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": "GNU LGPLv3",
+    "authors": [
+        {
+            "name": "ecomhouse",
+            "email": "opensource@ecom.house",
+            "homepage": "https://ecom.house/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "EcomHouse\\Base\\": ""
+        }
+    }
+}
