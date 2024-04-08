@@ -30,7 +30,7 @@ class ImageProcessor
                     // handle new image upload
                     $fileNameToMove = $data[$image][0]['name'];
                     $data[$image] = sprintf(
-                        '/%s/%s/%s',
+                        '%s/%s/%s',
                         DirectoryList::MEDIA,
                         $this->imagePath,
                         ltrim($fileNameToMove, '/')
